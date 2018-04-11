@@ -29,27 +29,30 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hBB-YI-kjZ">
                                 <rect key="frame" x="52" y="154" width="50" height="30"/>
+                                <color key="backgroundColor" red="0.252548985" green="1" blue="0.63497656479999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="4Ou-D8-hAX"/>
                                     <constraint firstAttribute="height" constant="30" id="psh-zV-DTt"/>
                                 </constraints>
                                 <state key="normal" title="Error"/>
                                 <connections>
-                                    <action selector="errorBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cC7-IT-LUL"/>
+                                    <action selector="errorBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="75e-ko-ulI"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tkl-yn-QrH">
                                 <rect key="frame" x="144" y="154" width="50" height="30"/>
+                                <color key="backgroundColor" red="0.252548985" green="1" blue="0.63497656479999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Sucess"/>
                                 <connections>
-                                    <action selector="sucessBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xOl-V2-29b"/>
+                                    <action selector="sucessBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0hV-5z-VsJ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Voy-PZ-ET4">
                                 <rect key="frame" x="255" y="154" width="57" height="30"/>
+                                <color key="backgroundColor" red="0.252548985" green="1" blue="0.63497656479999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Warning"/>
                                 <connections>
-                                    <action selector="warningBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6vh-ae-GwW"/>
+                                    <action selector="warningBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dqz-TL-gYD"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Impact Feedback" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QVK-G5-6yj">
@@ -63,26 +66,29 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1fs-KP-JX1">
                                 <rect key="frame" x="66" y="325" width="35" height="30"/>
+                                <color key="backgroundColor" red="0.252548985" green="1" blue="0.63497656479999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="fPo-CQ-qHb"/>
                                 </constraints>
                                 <state key="normal" title="Light"/>
                                 <connections>
-                                    <action selector="impactLightBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A9F-R3-6NK"/>
+                                    <action selector="impactLightBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hIt-o6-284"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jAf-FO-HHF">
                                 <rect key="frame" x="167" y="325" width="43" height="30"/>
+                                <color key="backgroundColor" red="0.252548985" green="1" blue="0.63497656479999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Heavy"/>
                                 <connections>
-                                    <action selector="impactHeavyBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a8Z-wY-cSF"/>
+                                    <action selector="impactHeavyBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u8k-Xz-8P0"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I0X-gM-XDR">
                                 <rect key="frame" x="270" y="325" width="55" height="30"/>
+                                <color key="backgroundColor" red="0.252548985" green="1" blue="0.63497656479999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Medium"/>
                                 <connections>
-                                    <action selector="impactMediumBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jqs-GK-KxJ"/>
+                                    <action selector="impactMediumBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rBR-DC-7nG"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selection Feedback" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wus-r6-kww">
@@ -96,9 +102,10 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dad-LB-Hra">
                                 <rect key="frame" x="155" y="499" width="64" height="30"/>
+                                <color key="backgroundColor" red="0.252548985" green="1" blue="0.63497656479999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Selection"/>
                                 <connections>
-                                    <action selector="selectionFeedbackBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="APf-aO-sO9"/>
+                                    <action selector="selectionFeedbackBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="50Q-jc-GVy"/>
                                 </connections>
                             </button>
                         </subviews>
